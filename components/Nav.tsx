@@ -36,8 +36,8 @@ const Nav = () => {
                 <div>
                     <div className='text-base block md:hidden absolute top-32 bg-white text-text-secondary right-0 h-full w-full p-4'>
                         {
-                            navItems.map(navItem => 
-                                <a href={navItem.href} className='hover:text-button-primary'>
+                            navItems.map((navItem, index) => 
+                                <a key={index} href={navItem.href} className='hover:text-button-primary'>
                                     <p className='py-2'>{navItem.title}</p>
                                 </a>
                             )

@@ -11,8 +11,8 @@ const TakeAways = () => {
   return (
     <div className='md:flex hidden justify-center gap-8'>
         {
-            takeAways.map(takeAway => (
-                <div className='flex gap-3'>
+            takeAways.map((takeAway, index) => (
+                <div key={index} className='flex gap-3'>
                     <p className='text-button-primary'>{takeAway.icon}</p>
                     <p>{takeAway.title}</p>
                 </div>
