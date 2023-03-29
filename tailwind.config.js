@@ -13,6 +13,7 @@ module.exports = {
     colors: {
       'background': '#F7FBFC',
       'white': '#ffffff',
+      'border-primary': '#ceccc9',
       'warning': '#f30606',
       'text-primary': '#59A52C',
       'text-secondary': '#08262c',
