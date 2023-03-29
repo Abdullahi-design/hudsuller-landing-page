@@ -7,7 +7,7 @@ import logo from '../public/images/logo.png'
 const Nav = () => {
     const [toggleMenu, settoggleMenu] = useState(true)
     const navItems = [
-        {title: 'Learn from experts', href: '#'},
+        {title: 'Learn from experts', href: '/academy'},
         {title: 'Already an expert', href: '#'},
     ]
 
