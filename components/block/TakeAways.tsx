@@ -9,7 +9,7 @@ const TakeAways = () => {
         {title: 'Market, Sell, And Deliver Like A Pro', icon: <BsFillPatchCheckFill className='w-5 h-5'/> },
     ]
   return (
-    <div className='md:flex hidden justify-center gap-8'>
+    <div className='md:flex hidden text-text-secondary justify-center gap-8'>
         {
             takeAways.map((takeAway, index) => (
                 <div key={index} className='flex gap-3'>
