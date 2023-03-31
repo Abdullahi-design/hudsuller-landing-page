@@ -18,7 +18,7 @@ const Topics = () => {
         <div className='lg:flex block'>
             <div className='block gap-3'>
                 {topics.map((topic, index) =>(
-                    <div className='flex gap-2 lg:text-2xl text-xl text-[#286900]'>
+                    <div key={index} className='flex gap-2 lg:text-2xl text-xl text-[#286900]'>
                         <p>{topic.icon}</p>
                         <div className='block'>
                             <p key={index} className="text-[#000]">{topic.name}</p>

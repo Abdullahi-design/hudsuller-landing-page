@@ -16,8 +16,8 @@ const Academy = () => {
   return (
     <div className='bg-background min-h-screen'>
         <div className=' text-center'>
-            <h1 className="lg:text-4xl text-2xl font-bold academy-header mb-4">Here's your attention getting headline</h1>
-            <h2 className="lg:text-xl text-lg font-medium academy-header mb-8">Here's your attention getting sub headline</h2>
+            <h1 className="lg:text-4xl text-2xl font-bold academy-header mb-4">Here&apos;s your attention getting headline</h1>
+            <h2 className="lg:text-xl text-lg font-medium academy-header mb-8">Here&apos;s your attention getting sub headline</h2>
         </div>
         <div className='lg:flex block'>
             {videoSrc && (
