@@ -4,6 +4,7 @@ import Image from 'next/image'
 import HomeHero from '../components/HomeHero'
 import Nav from '../components/Nav'
 import Offer from '../components/Offer'
+import Footer from '../components/Footer'
 
 const Home: NextPage = () => {
   return (
@@ -19,6 +20,8 @@ const Home: NextPage = () => {
       <Nav/>
       
       <HomeHero/>
+
+      <Footer/>
       
     </div>
   )
