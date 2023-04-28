@@ -16,7 +16,7 @@ const Home: NextPage = () => {
 
       <div className='flex min-h-screen flex-col items-center justify-center py-2 bg-[#cfddcd]'>
         <p className='bg-[#f3e415] p-4 rounded-full text-8xl'>⌛</p>
-        <h1 className='p-5 bg-white rounded-full'>WE'LL BE <b className='text-red-600'>LIVE</b> SOON</h1>
+        <h1 className='p-5 bg-white rounded-full'>WE WILL BE <b className='text-red-600'>LIVE</b> SOON</h1>
       </div>
 
       {/* <Offer/>
