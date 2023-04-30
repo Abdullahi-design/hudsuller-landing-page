@@ -8,10 +8,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 .cta-button {
-  @apply cursor-pointer mb-24 bg-button-primary text-white shadow-xl rounded-md p-5 md:px-20 md:text-2xl text-xl capitalize
+  @apply cursor-pointer bg-button-primary text-white shadow-xl rounded-2xl p-3 px-10
 }
 .cta-button-1 {
-  @apply cursor-pointer w-full bg-[#72d732] text-white shadow-xl rounded-md p-3 md:text-2xl text-xl capitalize
+  @apply cursor-pointer bg-button-primary text-white shadow-xl rounded-2xl p-3 md:px-10 px-5 md:text-lg text-sm
 }
 .academy-header {
   @apply text-[#286900]
