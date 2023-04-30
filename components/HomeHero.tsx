@@ -1,18 +1,15 @@
 import Link from 'next/link'
 import React from 'react'
-import TakeAways from './block/TakeAways'
 
 const HomeHero = () => {
   return (
-    <div className='text-center font-extrabold bg-background text-text-secondary md:p-26 p-6 w-full h-screen'>
-      <h1 className='sm:text-5xl text-2xl capitalize'>Learn One Thing, get really good at it: Our Expert Instructors Will Teach You How!</h1>
-      {/* <h2 className='sm:text-4xl text-2xl capitalize py-2'>Our Expert Instructors Will Teach You How!</h2> */}
-      <p className='sm:text-2xl text-xl font-thin mt-3'>Our team of experts are people who are really good at what they love to do. They will teach you how to focus on one thing and get really good at it too. With our online courses, you will learn from the best and get the skills you need to be great at what you want to do.</p>
+    <div id='services' className='text-center font-extrabold bg-background text-text-secondary lg md:p-32 p-24 px-8 w-full h-screen'>
+      <h1 className='lg:text-5xl text-2xl capitalize'>Partner with Us to Expand Your Reach and <br /> Achieve Your Business Goals</h1>
+      <p className='sm:text-xl text-lg font-thin text-[#727171] mt-3'>We specialize in expanding your reach and helping you connect with more customers. With our expert guidance and proven strategies, you can grow your business and reach new heights of success. Our tailored services are designed to meet your unique needs and help you accomplish your objectives. Partner with us today and take your business to the next level!</p>
       <div className='md:py-16 py-8'>
-        <Link href={'/academy'}>
-          <button className='cta-button'>Join a master class Now {`>>`}</button>
+        <Link href={'https://calendly.com/d/ysb-n27-wrc/how-can-we-help?month=2023-04'}>
+          <button className='cta-button'>Let&apos;s talk</button>
         </Link>
-        <TakeAways/>
       </div>
     </div>
   )

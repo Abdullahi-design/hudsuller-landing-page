@@ -7,8 +7,8 @@ import logo from '../public/images/logo.png'
 const Nav = () => {
     const [toggleMenu, settoggleMenu] = useState(true)
     const navItems = [
-        {title: 'Learn from experts', href: '/academy'},
-        {title: 'Already an expert', href: '#'},
+        {title: 'Home', href: '#home'},
+        {title: 'Services', href: '#services'},
     ]
 
   return (
@@ -22,7 +22,7 @@ const Nav = () => {
                     <div className='text-base md:flex hidden gap-3 mt-2'>
                         {
                             navItems.map((navItem, index) => 
-                                <a key={index} href={navItem.href} className={`hover:text-button-primary ${index === navItems.length - 1 ? '' : 'border-r px-2'}`}>
+                                <a key={index} href={navItem.href} className='px-6 hover:text-button-primary'>
                                     <p>{navItem.title}</p>
                                 </a>
                             )
@@ -34,7 +34,7 @@ const Nav = () => {
                 </div>
             ):(
                 <div>
-                    <div className='text-base block md:hidden absolute top-32 bg-white text-text-secondary right-0 h-full w-full p-4'>
+                    <div className='text-base block md:hidden absolute top-20 bg-white text-text-secondary right-10 h-fit w-fit px-12'>
                         {
                             navItems.map((navItem, index) => 
                                 <a key={index} href={navItem.href} className='hover:text-button-primary'>
