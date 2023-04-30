@@ -3,8 +3,10 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
 
-html,
-body {
+html {
+  scroll-behavior: smooth;
+}
+.home-page {
   font-family: 'Roboto', sans-serif;
 }
 .cta-button {
