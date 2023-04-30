@@ -46,7 +46,7 @@ const Academy = () => {
         </div>
         <div className='xl:-mt-64 mt-10 mx-auto text-center'>
             <h2 className="lg:text-4xl text-2xl font-bold academy-header mx-2 mb-4">Learn from EXPERTS: <span className='underline'>Follow who know road</span></h2>
-            <p className='lg:text-2xl text-xl lg:mx-32 mx-3 font-thin mt-3'>Our team of experts are people who are really good at what they love to do. They will teach you how to focus on one thing and get really good at it too. With our online courses, you will learn from the best and get the skills you need to be great at what you want to do.</p>
+            <p className='lg:text-2xl text-xl lg:mx-32 mx-3 font-light mt-3'>Our team of experts are people who are really good at what they love to do. They will teach you how to focus on one thing and get really good at it too. With our online courses, you will learn from the best and get the skills you need to be great at what you want to do.</p>
         </div>
         <div className='lg:mx-12 mx-3 mt-12'>
             <Topics/>

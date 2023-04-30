@@ -34,7 +34,7 @@ const Nav = () => {
                 </div>
             ):(
                 <div>
-                    <div className='text-base block md:hidden absolute top-20 bg-white text-text-secondary right-10 h-fit w-fit px-12'>
+                    <div className='text-base block md:hidden absolute top-20 bg-white text-text-secondary rounded-2xl right-10 h-fit w-fit px-12'>
                         {
                             navItems.map((navItem, index) => 
                                 <a key={index} href={navItem.href} className='hover:text-button-primary'>
