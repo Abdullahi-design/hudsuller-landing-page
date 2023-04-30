@@ -26,8 +26,8 @@ const WhatWeDo = () => {
       <p className='lg:px-72 md:px-24 px-8 sm:text-lg text-md text-[#727171] mt-3'>We specialize in providing marketing services to help businesses expand their reach and achieve their goals. </p>
       <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-14'>
       {
-        expertises.map(expertise => (
-          <div className='p-5'>
+        expertises.map((expertise, index) => (
+          <div key={index} className='p-5'>
             <Image src={expertise.icon} alt={expertise.alt} className='text-center justify-center mx-auto w-24 h-24'/>
             <h1 className='lg:text-3xl text-xl text-text-secondary capitalize my-3 mt-8'>{expertise.title}</h1>
             <p className='sm:text-xl text-lg font-thin text-[#727171]'>{expertise.description}</p>
