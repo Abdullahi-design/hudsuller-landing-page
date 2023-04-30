@@ -2,13 +2,11 @@ import Image from 'next/image'
 import React from 'react'
 import Coding from '../public/svgs/coding.svg'
 import OutSourcing from '../public/svgs/outsourcing.svg'
-import Rewiring from '../public/svgs/rewiring.svg'
 import Settings from '../public/svgs/settings.svg'
-import Advertising from '../public/svgs/advertising.svg'
 import FunnelBuilding from '../public/svgs/funnelBuilding.svg'
 import Growth from '../public/svgs/growth.svg'
 import Socialmediaadvertising from '../public/svgs/socialmediaadvertising.svg'
-import Link from 'next/link'
+import ReachOut from './blocks/ReachOut'
 
 const WhatWeDo = () => {
 
@@ -23,7 +21,7 @@ const WhatWeDo = () => {
     // {title: "Advertising", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed congue arcu, In et dignissim quam condimentum vel.", alt: "Advertising", icon: Advertising},
   ]
   return (
-    <div id='services' className='text-center font-extrabold bg-background py-32s'>
+    <div id='services' className='text-center font-extrabold bg-background'>
       <h1 className='sm:text-2xl text-xl uppercase text-button-primary'>What we do</h1>
       <p className='lg:px-72 md:px-24 px-8 sm:text-lg text-md text-[#727171] mt-3'>We specialize in providing marketing services to help businesses expand their reach and achieve their goals. </p>
       <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-14'>
@@ -37,6 +35,7 @@ const WhatWeDo = () => {
         ))
       }
       </div>
+      <ReachOut/>
     </div>
   )
 }
