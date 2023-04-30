@@ -20,6 +20,8 @@ const Home: NextPage = () => {
       <HomeHero/>
 
       <WhatWeDo/>
+
+      <Footer/>
       
     </div>
   )
