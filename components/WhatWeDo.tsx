@@ -30,7 +30,7 @@ const WhatWeDo = () => {
           <div key={index} className='p-5'>
             <Image src={expertise.icon} alt={expertise.alt} className='text-center justify-center mx-auto w-24 h-24'/>
             <h1 className='lg:text-3xl text-xl text-text-secondary capitalize my-3 mt-8'>{expertise.title}</h1>
-            <p className='sm:text-xl text-lg font-light text-[#727171]'>{expertise.description}</p>
+            <p className='sm:text-xl text-lg font-normal text-[#727171]'>{expertise.description}</p>
           </div>
         ))
       }
