@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import HomeHero from '../components/HomeHero'
 import Nav from '../components/Nav'
-import Offer from '../components/Offer'
 import Footer from '../components/Footer'
 
 const Home: NextPage = () => {
@@ -15,16 +14,9 @@ const Home: NextPage = () => {
         <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
 
-      <div className='flex min-h-screen flex-col items-center justify-center py-2 bg-[#cfddcd]'>
-        <p className='bg-[#f3e415] p-4 rounded-full text-8xl'>⌛</p>
-        <h1 className='p-5 bg-white rounded-full'>WE WILL BE <b className='text-red-600'>LIVE</b> SOON</h1>
-      </div>
-
-      {/* <Offer/>
-
       <Nav/>
       
-      <HomeHero/> */}
+      <HomeHero/>
       
     </div>
   )
