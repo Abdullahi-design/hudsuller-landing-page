@@ -13,7 +13,7 @@ const ReachOut = () => {
           <h2 className='text-lg'>We&apos;d love to hear from you.</h2>
         </div>
         <div className='md:flex block gap-5 md:justify-end lg:my-12'>
-          <Link href='https://calendly.com/d/ysb-n27-wrc/how-can-we-help?month=2023-04' target='_blank' passHref><button className='cta-button-1 flex gap-2'>
+          <Link href='https://calendly.com/abdullahismohd3000/how-can-we-help' target='_blank' passHref><button className='cta-button-1 flex gap-2'>
             <span>Book a free consultation</span>
             <SlCalender className='md:w-5 md:h-5 mt-1'/>
           </button></Link>     
