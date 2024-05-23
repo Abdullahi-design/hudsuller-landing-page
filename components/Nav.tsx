@@ -12,7 +12,7 @@ const Nav = () => {
     ]
 
   return (
-    <div className={`flex bg-background text-text-secondary capitalize p-5 font-bold`}>
+    <div className={`flex bg-background w-full text-text-secondary capitalize p-5 font-bold`}>
         <div className='flex justify-between text-3xl md:px-12 px-6 w-full'>
             <a href={`/`}>
                 <Image src={logo} alt='limbo funnels logo' className='sm:w-1/2 w-3/4'/>

@@ -3,19 +3,17 @@ import React from 'react'
 import Coding from '../public/svgs/coding.svg'
 import OutSourcing from '../public/svgs/outsourcing.svg'
 import Settings from '../public/svgs/settings.svg'
-import FunnelBuilding from '../public/svgs/funnelBuilding.svg'
+import BusinessConsultaton from '../public/svgs/businessConsultaton.svg'
 import Growth from '../public/svgs/growth.svg'
-import Socialmediaadvertising from '../public/svgs/socialmediaadvertising.svg'
 import ReachOut from './blocks/ReachOut'
 
 const WhatWeDo = () => {
 
   const expertises = [
-    {title: "Software Development", description: "We create special computer programs for businesses that help them with their unique needs.", alt: "Software Development", icon: Coding},
-    {title: "Funnel Marketing", description: "We help businesses sell more by making the buying process easier. We analyze each step and use data to improve it, so more customers end up buying.", alt: "Funnel Marketing", icon: FunnelBuilding},
-    {title: "Social media marketing", description: "We help businesses improve their online presence and connect with customers using social media. Our experts create content and drive traffic to your website using proven strategies.", alt: "Social media marketing", icon: Socialmediaadvertising},
-    {title: "Growth Partner", description: "We help businesses grow by providing expert guidance and support. We work closely with clients to find growth opportunities, develop strategies to take advantage of them, and provide ongoing support for success.",alt: "Growth Partner", icon: Growth},
+    {title: "Software Development", description: "We are competent in building scalable, secure and stable end-to-end systems in the cloud and on-premises", alt: "Software Development", icon: Coding},
     {title: "Outsourcing", description: "We help you stay focused your core business while we manage the complex technical aspects of your operations.", alt: "Outsourcing", icon: OutSourcing},
+    {title: "Business Consulting", description: "We help businesses improve their online presence and connect with customers using social media. Our experts create content and drive traffic to your website using proven strategies.", alt: "Business Consulting", icon: BusinessConsultaton},
+    {title: "Growth Partner", description: "We help businesses grow by providing expert guidance and support. We work closely with clients to find growth opportunities, develop strategies to take advantage of them, and provide ongoing support for success.",alt: "Growth Partner", icon: Growth},
     {title: "ERP systems", description: "We build custom ERP systems for businesses and meet the unique needs of growing organizations.", alt: "ERP systems", icon: Settings},
     // {title: "Process Automation", description: "", alt: "Process Automation", icon: Rewiring},
     // {title: "Advertising", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed congue arcu, In et dignissim quam condimentum vel.", alt: "Advertising", icon: Advertising},

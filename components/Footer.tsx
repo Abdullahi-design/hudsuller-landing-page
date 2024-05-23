@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className={`p-5 border-t border-[#f0f3f3] bg-background text-text-secondary`}>
         <footer className='text-center'>
-            <span>Limbo Funnels - All Right Reserved &copy; {new Date().getFullYear()}.</span>
+            <span>&copy; Hudsuller Technologies Nigeria Limited - all Right Reserved {new Date().getFullYear()}.</span>
         </footer>
     </div>
   )
